@@ -1,4 +1,3 @@
-# [Coursera: How to Win a Data Science Competition: Learn from Top Kagglers](https://www.coursera.org/learn/competitive-data-science?specialization=aml)  
 # Features preprocessing
 ## numeric features:
 ### Scaling
@@ -6,7 +5,7 @@ Tree-based models doesn't depend on scaling.
 Non-tree based models hugely depend on scaling.
 Different features scalings result in different models quality.  
 ``` python
-sklearn.preprocessing.StandardScaler-- to mean==0, std ==1
+sklearn.preprocessing.StandardScaler - to mean==0, std ==1
 MinMaxScaler - to [0,1]
 ```
 ### Outliers
@@ -58,7 +57,7 @@ Number of days left until next holidays/time passed after last holiday.
 ### Difference between dates  
 datetime_feature_1, datetime_feature_2  
 
-## coordinates  
+## Coordinates  
 1. Interesting places from train/test data  
 2. Centers of clusters  
 3. Aggregated statistics  
@@ -80,11 +79,11 @@ The way to handle this case is to avoid filling nans before feature generation.
   
 # Feature extraction from text and images  
 ## Text to vector  
-1. Bag of words: (BOW)
+1. Bag of words: (BOW)  
 1.1 TFiDF(Term frequency/Inverse Document Frequency) for scaling
 ```
 sklearn.feature_extraction.text.TfidVectorizer
-```  
+```    
 1.2 N-grams: help to use local context
 ```
 sklearn.feature_extraction.text.CountVectorizer:
