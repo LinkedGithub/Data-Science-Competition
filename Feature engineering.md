@@ -108,9 +108,9 @@ c. The words with similar meaning often have similar embeddings
 4. Stopwords
 
 ## Image to vector  
-CNN
-a. features can be extracted from different layers
-b. careful choosing of pretrained network can help
-c. Finetuning allows to refine pretrained models
+CNN  
+a. features can be extracted from different layers  
+b. careful choosing of pretrained network can help  
+c. Finetuning allows to refine pretrained models  
 d. Data augmentation can improve the model
 
