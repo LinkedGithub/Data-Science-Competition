@@ -92,13 +92,13 @@ Ngram_range, analyzer
 2. Embeddings(~word2vec)
 
 BOW and w2v comparison:
-1. BOW: 
-a. Very large vectors
+1. BOW:   
+a. Very large vectors  
 b. meaning of each value in vector is known
 
-2. Word2Vec:
-a. relatively small vectors
-b. values in vector can be interpreted only in some case
+2. Word2Vec:  
+a. relatively small vectors  
+b. values in vector can be interpreted only in some case  
 c. The words with similar meaning often have similar embeddings
 
 ## Texts preprocessing  
