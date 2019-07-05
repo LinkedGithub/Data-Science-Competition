@@ -6,7 +6,7 @@ Tree-based models doesn't depend on scaling.
 Non-tree based models hugely depend on scaling.
 Different features scalings result in different models quality.  
 ``` python
-sklearn.preprocessing.StandardScaler-- to mean==0, std ==1
+sklearn.preprocessing.StandardScaler -- to mean==0, std ==1
 MinMaxScaler - to [0,1]
 ```
 ### Outliers
@@ -58,7 +58,7 @@ Number of days left until next holidays/time passed after last holiday.
 ### Difference between dates  
 datetime_feature_1, datetime_feature_2  
 
-## coordinates  
+## Coordinates  
 1. Interesting places from train/test data  
 2. Centers of clusters  
 3. Aggregated statistics  
@@ -93,13 +93,13 @@ Ngram_range, analyzer
 2. Embeddings(~word2vec)
 
 BOW and w2v comparison:
-1. BOW: 
-a. Very large vectors
+1. BOW:   
+a. Very large vectors  
 b. meaning of each value in vector is known
 
 2. Word2Vec:
-a. relatively small vectors
-b. values in vector can be interpreted only in some case
+a. relatively small vectors  
+b. values in vector can be interpreted only in some case  
 c. The words with similar meaning often have similar embeddings
 
 ## Texts preprocessing  
@@ -110,8 +110,8 @@ c. The words with similar meaning often have similar embeddings
 
 ## Image to vector  
 CNN
-a. features can be extracted from different layers
-b. careful choosing of pretrained network can help
-c. Finetuning allows to refine pretrained models
-d. Data augmentation can improve the model
+a. features can be extracted from different layers  
+b. careful choosing of pretrained network can help  
+c. Finetuning allows to refine pretrained models  
+d. Data augmentation can improve the model  
 
