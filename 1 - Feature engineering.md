@@ -6,7 +6,7 @@ Tree-based models doesn't depend on scaling.
 Non-tree based models hugely depend on scaling.
 Different features scalings result in different models quality.  
 ``` python
-sklearn.preprocessing.StandardScaler -- to mean==0, std ==1
+sklearn.preprocessing.StandardScaler  to mean==0, std ==1
 MinMaxScaler - to [0,1]
 ```
 ### Outliers
@@ -97,7 +97,7 @@ BOW and w2v comparison:
 a. Very large vectors  
 b. meaning of each value in vector is known
 
-2. Word2Vec:
+2. Word2Vec:  
 a. relatively small vectors  
 b. values in vector can be interpreted only in some case  
 c. The words with similar meaning often have similar embeddings
@@ -109,7 +109,7 @@ c. The words with similar meaning often have similar embeddings
 4. Stopwords
 
 ## Image to vector  
-CNN
+CNN  
 a. features can be extracted from different layers  
 b. careful choosing of pretrained network can help  
 c. Finetuning allows to refine pretrained models  
