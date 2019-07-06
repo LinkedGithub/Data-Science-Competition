@@ -67,7 +67,7 @@ train_new[col + 'mean_target'] = cumsum/cumcnt
 ```
 
 ## Extensions and generalizations  
-### 1. Regression and multiclass  
+### Regression and multiclass  
 - More statistics for regression tasks. Percentiles, std, median, distribution bins  
 - Introducing new information for one vs all classifiers in multi-class tasks.  
 
