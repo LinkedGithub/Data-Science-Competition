@@ -1,6 +1,6 @@
 # Exploratory Data Analysis(EDA)  
 ## Visualization  
-Visualization -> Idea : Patterns lead to question
+Visualization -> Idea : Patterns lead to question  
 Idea -> Visualization : Hypothesis testing  
 
 1. Get domain knowledge  
